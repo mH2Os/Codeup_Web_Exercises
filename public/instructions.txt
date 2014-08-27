@@ -1,0 +1,92 @@
+Open the hello_world.html file in your favorite editor.
+Below the "hello world" heading, create a paragraph introducing yourself and telling some fun facts about yourself. Use emphasis, strong emphasis, and line break elements within the paragraph.
+Below the paragraph, create a level 2 heading that says: "My Favorite Quote". Below that heading, use the block quote element and paste in your favorite quote.
+View the result in your web browser by browsing to: http://codeup.dev/hello_world.html
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+
+Open the hello_world.html file in your favorite editor.
+Below your favorite quote, add a level 2 heading that says: "I'm Learning the LAMP Stack".
+Below the heading, create an unordered list that names each item in the LAMP stack.
+Below the unordered list, create another level 2 heading that says: "My Top 5 Favorite Foods".
+Below the heading, create an ordered list containing your top 5 favorite foods in order.
+Below the ordered list, create another level 2 heading that says: "Questions I'm Often Asked".
+Below the heading, create a definition list containing at least 2 questions you are often asked, along with the answers you generally give. Be creative.
+View the result in your web browser by browsing to: http://codeup.dev/hello_world.html
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+Open the hello_world.html file in your favorite editor.
+Within the body tags of the document, below everything else you have added, create a new level 2 heading that says: "My Favorite Websites".
+Below the heading, use either an ordered or unordered list to list your top 5 favorite websites. Make the names of the sites link to the sites by opening them in a new window.
+Use what you learned in this lesson to create a "go to top of page" feature within your HTML document.
+View the result in your web browser by browsing to: http://codeup.dev/hello_world.html
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+
+
+Open the hello_world.html file in your favorite editor.
+Within the body tags of the document, below everything else you have added, create a new level 2 heading that says: "My Vehicle".
+Below the heading, create a new paragraph describing the vehicle you own, or the one you dream about.
+Browse the web and find an image of the vehicle you described and download the image.
+Create a new directory, named img, in the following location: ~/vagrant-lamp/sites/codeup.dev/public
+Move the image you downloaded to the directory you just created.
+Use what you learned in this lesson to display the image in your web page right below the paragraph describing the vehicle.
+View the result in your web browser by browsing to: http://codeup.dev/hello_world.html
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+
+
+
+
+Open the hello_world.html file in your favorite editor.
+Within the body tags of the document, below everything else you have added, create a new level 2 heading that says: "Decimal to Hexadecimal Conversion Chart".
+Below the heading, create a table with a heading row with 2 columns: "Decimal" and "Hexadecimal". Next, create additional rows to show the conversion of the decimal numbers 0 through 15 to hexadecimal.
+View the result in your web browser by browsing to: http://codeup.dev/hello_world.html
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+
+Open the my_first_form.html file in your favorite editor.
+Add a checkbox to the "Compose an Email" form that asks a user if they want to save a copy to their sent folder. Make the checkbox checked by default.
+Try submitting the email form and view the results in RequestBin with and without the checkbox checked. What observations can you make?
+Add a new form below the existing forms with a heading of: "Multiple Choice Test".
+Add two or more question and answer sets using radio buttons. Experiment with the naming so that you understand how radio buttons are grouped.
+Try submitting the multiple choice test form and view the results in RequestBin with and without or without questions answered. What observations can you make?
+Add a question that has multiple answers using grouped checkboxes. Try submitting the form to RequestBin to see how the inputs work.
+Try removing the <label> elements from your checkboxes and radio buttons. Try clicking on the text next to the checkbox or radio button in the web browser. Notice the difference in behavior? Replace the labels when you are done.
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+
+Open the my_first_form.html file in your favorite editor.
+Add a new form below the others with a heading of: "Select Testing".
+Create a basic select input that asks the user a yes or no question. Try defaulting the answer to yes, and then to no. Try submitting the form to RequestBin and view the results.
+Change the select input so that when yes is selected, a value of 1 is sent with the form data, and when no is selected, a value of 0 is sent. Try submitting the form to RequestBin and verify the results.
+Update the "Multiple Choice Test" you made in the last lesson. Add another multi-answer question and use a multi-select input to accept the answer. Try submitting the form to RequestBin and view the results.
+Finally, save your HTML file, commit the file to your git repository, and push to GitHub.
+
+
+
+
+Create an HTML file named css_intro.html within the ~/vagrant-lamp/sites/codeup.dev/public folder on your Mac.
+Create a folder named css in the same location as the html files you created.
+Inside the css folder, create a file named site.css.
+Use the sample code from the "External Stylesheet" section above to add content to the two files you created.
+View the results in your browser to test for the expected output.
+Finally, save your work, commit the changes to your git repository, and push to GitHub.
+
+
+
+
+
+
+
+
+
+
+
+
