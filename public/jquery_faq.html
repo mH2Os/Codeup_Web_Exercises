@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title></title>
+	<style>
+        .centered {
+            text-align: center;
+        }
+        .invisible {
+            color: white;
+        }
+        .bold {
+        	font-weight: bold;
+        }
+    </style>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $('document').ready(function() {
+            $('#magic').click(function(event) {
+                event.preventDefault();
+                $('dd').toggle('slow');
+            });
+        });
+
+        $('document').ready(function() {
+            $('#thick').click(function(event) {
+                event.preventDefault();
+                $('#arches').children().first().toggle('slow');
+                $('#badlands').children().first().toggle('slow');
+                $('#carlsbad').children().first().toggle('slow');
+            });
+        });
+    </script>
+</head>
+<body>
+	<h1 id="magic">FAQs</h1>
+		<dl>
+			<dt>What is the name of the first codeup cohort?</dt>
+			<dd>Arches</dd>
+			<dt>What is the name of the second codeup cohort?</dt>
+			<dd>Badlands</dd>
+			<dt>What is the name of the third codeup cohort?</dt>
+			<dd>Carlsbad Caverns</dd>
+			<dt>What is the name of the fourth codeup cohort?</dt>
+			<dd>Denali</dd>
+			<dt>What is the name of the fifth codeup cohort?</dt>
+			<dd>Everglades</dd>
+			<dt>What is the name of the sixth codeup cohort?</dt>
+			<dd>Fire Island</dd>
+			<dt>What is the name of the seventh codeup cohort?</dt>
+			<dd>Glacier</dd>
+			<dt>What is the name of the eigth codeup cohort?</dt>
+			<dd>Haleakalā</dd>
+			<dt>What is the name of the ninth codeup cohort?</dt>
+			<dd>Isle Royale</dd>
+			<dt>What is the name of the tenth codeup cohort?</dt>
+			<dd>Joshua Tree</dd>
+		</dl>
+<!-- 		<a href="#">Make the Parks Invisible!</a>
+ -->
+	<h1 id="thick">Parks List</h1>
+	    <h3>Arches</h3>
+	    <ul id="arches">
+	        <li>National Park in Utah</li>
+	        <li>Name of first codeup cohort</li>
+	        <li>Originated November 10, 1978</li>
+	        <li>Is 76,518 acres large</li>
+	    </ul>
+	    <h3>Badlands</h3>
+	    <ul id="badlands">
+	        <li>National Park in South Dakota</li>
+	        <li>Name of second codeup cohort</li>
+	        <li>Originated November 12, 1971</li>
+	        <li>Is 242,755 acres large</li>
+	    </ul>
+	    <h3>Carlsbad</h3>
+	    <ul id="carlsbad">
+	        <li>National Park in New Mexico</li>
+	        <li>Name of third codeup cohort</li>
+	        <li>Originated May 14, 1930</li>
+	        <li>Is 46,766 acres large</li>
+	    </ul>
+<!-- 	    <a href="$">Look at the Places!</a>
+ -->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>PIZZA</title>
+	<script type="text/javascript">
+
+		// todo: Ask the user for their name.
+		//       Keep asking if an empty input is provided.
+
+		do {
+			var response = prompt('Enter your name, please:');
+			console.log(response);
+		} while (response == null || response == "");
+
+
+		// // the line below will display the prompt dialog and store the user input result in the response variable
+		// var response = prompt('What is your favorite color?');
+
+		// // next, we will send a message back to the user that uses their response
+		// alert('Awesome, ' + response + ' is my favorite color too!');
+
+		// todo: Show an alert message that welcomes the user based on their input.
+
+		alert('Hello, ' + response + ' Its great to meet you!');
+
+		// todo: Ask the user if they like pizza.
+		//       Based on their answer tell show a creative alert message.
+
+		var input = confirm('Do you like pizza? yes or no?');
+		console.log(input);
+		if (input) {
+			console.log('Yay! Me too!');
+		} else {
+			console.log('Are you ill?');
+		}
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+

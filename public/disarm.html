@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>Disarm the BOM (Browser Object Model)</title>
+	<link href="disarm_css.css" rel="stylesheet">
+<style>
+	body {
+		background-color: black;
+
+	}
+	.button{
+		position: relative;
+	}
+	#btnDisarmRd {
+		color: white;
+		background-color: red;
+		font-weight: bold;
+		font-family: monospace;
+	}
+	#btnDisarmBl {
+		color : white;
+		background-color: blue;
+		font-weight: bold;
+		font-family: monospace;
+	}
+	h1 {
+		color: white;
+		text-align: center;
+		font-family: monospace;
+	}
+	h2 {
+		color: white;
+		text-align: center;
+		font-family: monospace;
+	}
+	p {
+		color: white;
+		text-align: center;
+		font-family: monospace;
+	}
+
+	#container {
+		width: 366px;
+		margin: auto;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<h1>Mission Impossible!</h1>
+	<p>Your mission is to choose a button wisely, Pick the wrong one and you lose!</p>
+
+	<div id="container">
+		<button id="btnDisarmRd" class="button"><a href="http://codeup.dev/BOOM_page.html"></a>Disarm the BOM!</button>
+
+		<button id="btnDisarmBl" class="button"><a href="http://codeup.dev/BOOM_page.html"></a>
+		Disarm the BOM!</button>
+	</div>
+
+	<h2 id="display">15</h2>
+	
+	<script>
+
+	var display = document.getElementById("display");
+
+	var detonationTimer = 15; // seconds
+ 
+	var intervalId = setInterval(function () {
+		
+		detonationTimer--;
+ 
+		console.log(detonationTimer + '...');
+		display.innerText = detonationTimer;
+ 
+		if (detonationTimer == 0) {
+			alert('BOMMMMM!!!');
+			clearInterval(intervalId);
+		}
+ 
+	}, 1000);
+ 
+	function getRandomInt(min, max) {
+	  return Math.floor(Math.random() * (max - min + 1) + min);
+	}
+
+	var random = getRandomInt(0, 1);
+
+	if(random == 1) {
+		var btnDisarmRd = document.getElementById('btnDisarmRd');
+ 
+		btnDisarmRd.addEventListener('click', function () {
+			clearInterval(intervalId);
+			alert('You are a hero! You disarmed the BOM!');
+		});
+		var btnDisarmBl = document.getElementById('btnDisarmBl');
+ 
+		btnDisarmBl.addEventListener('click', function () {
+			clearInterval(intervalId);
+			alert('BOMMMMM');
+		});
+	} else {
+		var btnDisarmRd = document.getElementById('btnDisarmRd');
+ 
+		btnDisarmRd.addEventListener('click', function () {
+			clearInterval(intervalId);
+			alert('BOMMMMM');
+		});
+		var btnDisarmBl = document.getElementById('btnDisarmBl');
+ 
+		btnDisarmBl.addEventListener('click', function () {
+			clearInterval(intervalId);
+			alert('You are a hero! You disarmed the BOM!');
+		});
+	}
+
+	</script>
+</body>
+</html>

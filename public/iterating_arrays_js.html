@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>Arrays</title>
+	<script type="text/javascript">
+
+	// todo:
+	// Create an array of 4 names using literal array notation, in a variable called 'names'.
+
+	var names = ['Rissa', 'Rotten', 'Racible', 'Rapscallion'];
+
+	// todo:
+	// Create a log statement that will log the number of elements in the names array.
+
+	// console.log(names.length);
+
+	// // todo:
+	// // Create log statements that will print each of the names array elements individually.
+
+	// console.log('There are ' + names.length + ' names in the array');
+	// console.log('The first name is: ' + names[0]);
+	// console.log('The second name is: ' + names[1]);
+	// console.log('The third name is: ' + names[2]);
+	// console.log('The fourth name is: ' + names[3]);
+	// console.log('The fifth name is: ' + names[4]);
+
+	// for (var i = 0; i < names.length; i++) {
+	// 	console.log('Name ' + i + ' is: ' + names[i]);
+	// }
+
+	names.forEach(function (element, index, array) {
+		console.log('The name at index ' + index + ' is: ' + element);
+	});
+
+	</script>
+</head>
+<body>
+	// <script type="text/javascript">
+
+	// 	// loop through the array and log the values
+	// shapes.forEach(function (element, index, array) {
+
+	//     // element is the shape name
+	//     // index is the iterator
+	//     // array is the shapes array itself
+
+	// 	console.log('The shape at index ' + index + ' is: ' + element);
+	// });
+
+
+
+
+	// // declare and initialize array
+	// var shapes = ['square','rectangle','circle','triangle'];
+
+	// // loop through the array and log the values
+	// for (var i = 0; i < shapes.length; i++) {
+	//     console.log('The shape at index ' + i + ' is: ' + shapes[i]);
+	// }
+
+	// // declare and initialize array
+	// var shapes = ['square','rectangle','circle','triangle'];
+	// // declare an empty array
+	// var emptyArray = new Array();
+
+
+	// // declare and initialize array
+	// var shapes = ['square','rectangle','circle','triangle'];
+	// // log the number of items in the array
+	// console.log(shapes.length); // 4
+
+
+	// // declare and initialize array
+	// var shapes = ['square','rectangle','circle','triangle'];
+	// // There are 4 shapes in the array
+	// console.log('There are ' + shapes.length + ' shapes in the array');
+	// // The first shape is: square
+	// console.log('The first shape is: ' + shapes[0]);
+	// // The second shape is: rectangle
+	// console.log('The second shape is: ' + shapes[1]);
+	// // The third shape is: circle
+	// console.log('The third shape is: ' + shapes[2]);
+	// // The fourth shape is: triangle
+	// console.log('The fourth shape is: ' + shapes[3]);
+	// // The fifth shape is: undefined
+	// console.log('The fifth shape is: ' + shapes[4]);
+
+	// </script>
+</body>
+</html>

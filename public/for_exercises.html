@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>exercise</title>
+	<script type="text/javascript">
+		// for (var i = 1; i < 100; i++) {
+
+		//     if (i % 2 !== 0) {
+		//         continue;
+		//     }
+
+		//     console.log('Here is a lovely even number: ' + i);
+		// }
+
+		var random = Math.floor((Math.random()*50)+1);
+		console.log('Random stopping point is: ' + random);
+		for (var i = 1; i < 50; i++) {
+			if (random == i) {
+
+		        console.log('Yipes! Skip number ' + random);
+		        continue;
+		    }
+			if (i % 2 == 0) {
+				continue;
+			}
+
+			console.log(i);
+		}
+
+
+		// for (var i = 1; i < 100; i++) {
+
+		//     console.log('Loop counter is: ' + i);
+
+		    
+		//     }
+		// }
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+(test) ? (if true) : (else);

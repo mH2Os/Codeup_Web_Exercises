@@ -14,7 +14,7 @@
 		<p>
 			<label for="first_name">Name:</label>
 			<input type="text" name="first_name" id="first_name" placeholder="First" />
-			<input type="text" name="last_name" id="last_name" placeholder="Last" /><br />
+			<input type="text" name="last_name" id="last_name" placeholder="Last" /><br/>
 
 			<label for="password">Password:</label>
 			<input type="password" name="password" id="password" placeholder="Password" />

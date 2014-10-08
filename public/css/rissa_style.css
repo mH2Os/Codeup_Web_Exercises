@@ -1,0 +1,28 @@
+.navbar-inverse {
+background-color: #410A66;
+}
+.btn-primary {
+color: #fff;
+background-color: #8E42CA;
+border-color: #8E42CA;
+}
+.btn-default {
+color: #333;
+background-color: #D2B8F8;
+border-color: #ccc;
+}
+.jumbotron {
+padding: 30px;
+margin-bottom: 30px;
+color: inherit;
+background-image: url('/img/seriousOwl.jpg');
+}
+.jumbotron h1, .jumbotron .h1 {
+color: black;
+}
+.jumbotron p {
+margin-bottom: 15px;
+font-size: 21px;
+font-weight: 200;
+color: black;
+}

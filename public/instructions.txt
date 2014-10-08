@@ -82,6 +82,13 @@ Finally, save your work, commit the changes to your git repository, and push to 
 
 
 
+Create an external stylesheet and link it to your todo list page.
+Add a style to change the color of the headers on your page and make them underlined.
+Add a style to change the background color of the page.
+Add a style to change the list-style to something other than the default.
+Add a style to change the font for the entire page.
+Continue experimenting with styles to increase the visual appeal of the todo list.
+When complete, save your files, commit the files to your git repository, and push to GitHub.
 
 
 
@@ -90,3 +97,38 @@ Finally, save your work, commit the changes to your git repository, and push to 
 
 
 
+Create an HTML file named css_box_model.html within the ~/vagrant-lamp/sites/codeup.dev/public folder on your Mac.
+Title the page "Box Model Exercise".
+Re-create the image shown below as HTML by using the appropriate styling to meet the specifications provided below. Hint: each colored box is a div element.
+Finally, save your work, commit the changes to your git repository, and push to GitHub.
+
+
+Each colored box as a 1 pixel border.
+The content area of each box is 150 pixels wide by 50 pixels high.
+The overall size of each box is 172 pixels wide by 72 pixels high.
+The orange box is indented by 30 pixels.
+Each subsequent box is indented by 30 more pixels than the previous.
+There are 10 pixels of space between the boxes.
+The wavelength text is bold.
+The header should link to the wikipedia article on the specified subject.
+
+
+
+
+
+
+No line breaks or paragraphs should be used. Use positioning, floats, and clears as appropriate.
+Each colored box as a 1 pixel border.
+The content area of each box is 50 pixels wide by 50 pixels high.
+The overall size of each box is 72 pixels wide by 72 pixels high.
+There is 50 pixels of space between the header and the boxes.
+There is 50 pixels of space between the boxes themselves.
+The Codeup arrow has been added to each box (download image below).
+
+
+Create an HTML file named css_positioning.html within the ~/vagrant-lamp/sites/codeup.dev/public folder on your Mac.
+Copy the contents of the css_box_model.html lesson to the file you just created to use as the starting point.
+Title the page "Positioning Exercise".
+Re-create the image shown below as HTML by using the appropriate styling to meet the specifications provided below.
+Add the Codeup Ribbon image (download image below) to the upper right corner of your page.
+Finally, save your work, commit the changes to your git repository, and push to GitHub.
